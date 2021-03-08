@@ -9,9 +9,15 @@
  * @author kevin
  */
 public class Calculadora {
-    private Integer operador1;
-    private Integer operador2;
-    private Integer operacion;
+    private Integer operador1;/*
+    @param operador1 es un operador1
+    */
+    private Integer operador2;/*
+    @param operador2 es un operador2
+    */
+    private Integer operacion;/*
+    @param operador3 es un operador3
+    */
 
     public Integer getOperador1() {
         return operador1;
