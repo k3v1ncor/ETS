@@ -12,7 +12,7 @@ package Calculadora;
  */
 public class Calculadora {
     private Integer operador1;
-    private Integer operador2;
+    private Integer oper2;
     private Integer operador;
 
     public Integer getOperador1() {
@@ -23,12 +23,12 @@ public class Calculadora {
         this.operador1 = operador1;
     }
 
-    public Integer getOperador2() {
-        return operador2;
+    public Integer getOper2() {
+        return oper2;
     }
 
-    public void setOperador2(Integer operador2) {
-        this.operador2 = operador2;
+    public void setOper2(Integer oper2) {
+        this.oper2 = oper2;
     }
 
     public Integer getOperador() {
